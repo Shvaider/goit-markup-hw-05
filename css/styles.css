@@ -555,6 +555,7 @@
     .box-svg-item:hover,
     .box-svg-item:focus {
         color: var(--accent-color);
+        border: 1px solid var(--accent-color);
     }
     .svg-icon-item {
         width: 106x;
@@ -566,7 +567,6 @@
     .svg-icon-item:hover,
     .svg-icon-item:focus {
         fill: var(--accent-color);
-        border: 1px solid var(--accent-color);
     }
     /*footer*/
     .logo-footer {
