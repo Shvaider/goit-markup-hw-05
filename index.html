@@ -50,15 +50,47 @@
     <!-- выскакивающее окно -->
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quas facilis obcaecati velit vitae,
-                    quae, deserunt itaque inventore ut in aut reprehenderit quis est voluptas pariatur eligendi natus
-                    molestias dolorum.
-                </p>
                 <button data-modal-close class="btn-close" type="button">
                     <svg class="close-pic">
                         <use href="./images/sprite-closes.svg#icon-Vector-1"></use>
                     </svg>
                 </button>
+                <h2 class="modal-title-text">Оставьте свои данные, мы вам перезвоним</h2>
+                <form class="js-speaker-form">
+                    <ul class="modal-list">
+                        <li class="modal-item"><label class="connection-field">
+                                <p class="title-desk">Имя</p>
+                                <input class="modal-input" type="text" name="username" placeholder=" " />
+                                <svg class="modal-icon" width="12" height="12">
+                                    <use href="./images/sprite-hm5.svg#icon-user"></use>
+                                </svg>
+                            </label></li>
+                        <li class="modal-item"><label class="connection-field">
+                                <p class="title-desk">Телефон</p>
+                                <input class="modal-input" type="tel" name="phone_number" placeholder=" " />
+                                <svg class="modal-icon" width="13" height="13">
+                                    <use href="./images/sprite-hm5.svg#icon-tel"></use>
+                                </svg>
+                            </label>
+                        <li class="modal-item"><label class="connection-field">
+                                <p class="title-desk">Почта</p>
+                                <input class="modal-input" type="email" name="email" placeholder=" " />
+                                <svg class="modal-icon" width="15" height="12">
+                                    <use href="./images/sprite-hm5.svg#icon-emeil"></use>
+                                </svg>
+                            </label></li>
+                        <li class="modal-item"><label class="connection-field">
+                                <p class="title-desk">Комментарий</p>
+                                <input class="aside-desc" type="text" name="name" placeholder="Введите текст" />
+                            </label></li>
+                        <li class="modal-item"><label class="section-checkbox">
+                                <input class="checkbox" type="checkbox" name="yes" value="" checked />
+                                <p class="modal-text-excerpt">Соглашаюсь с рассылкой и принимаю <a href="#"
+                                        class="modal-link">Условия договора</a></p>
+                            </label></li>
+                    </ul>
+                    <button class="modal-button" type="button">Отправить</button>
+                </form>
             </div>
         </div>
     <!-- end выскакивающее окно -->
@@ -383,6 +415,20 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="footer-conteiner-button">
+                    <h3 class="footer-section-link">Подпишитесь на рассылку</h3>
+                    <div class="footer-btn-conteiner">
+                        <label class="footer-section-email">
+                            <input class="fotter-input" type="email" name="email" placeholder="E-mail"/>
+                        </label>
+                        <button class="footer-button" type="button">
+                            <span class="button-label">Подписаться</span>
+                            <svg class="button-icon" Width="24" Height="24">
+                                <use href="./images/sprite-hm5.svg#icon-latter"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </footer>
