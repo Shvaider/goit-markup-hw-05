@@ -457,7 +457,7 @@
     }
     .modal-icon {
         position: absolute;
-        top: 32px;
+        top: 3px;
         left: 15px;
         fill: var(--accent-text-color);
 
